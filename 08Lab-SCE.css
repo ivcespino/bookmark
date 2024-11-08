@@ -1,0 +1,157 @@
+/* DESIGN ELEMENTS*/
+
+body { 
+    background-color: #000000;
+    background-image: url("bg7.png"); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 75%;
+    background-position: center;
+    color: #dfdfdf;
+}
+
+hr {
+    background:#dfdfdf;
+    width: 100%; 
+}
+
+.inline {
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #dedede;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 70%; 
+    margin: 2%; 
+    vertical-align: top; 
+}
+
+.boxquote {
+    display: inline-block;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #dedede;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 45.5%; 
+    margin: 2%; 
+    vertical-align: top; 
+}
+
+
+/* TEXTS */
+
+.heading {
+    font: normal 600 50px "Zen Old Mincho", serif;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin: -5px;
+}
+
+.subhead {
+    font: normal 600 40px "Zen Old Mincho", serif;
+    text-align: center;
+    background-color: rgba(34, 34, 34, 0.5);
+    padding: 10px;
+    margin: 5px;
+    line-height: 1em;
+    border-width: 1px;
+    border-style: inset;
+    border-color: #dfdfdf;
+}
+
+.text {
+    font: normal 400 15px 'Space Mono', monospace;
+    text-align: match-parent;
+    padding: 0px;
+    margin: 1em;
+} 
+
+
+/* IMAGE */
+
+img {
+    width: 20%;
+}
+
+.yukoimg {
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #dedede;
+    width: 20%;
+    margin: 2%; 
+}
+
+.akiraimg {
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #dedede;
+    width: 20%;
+    margin: 2%;  
+}
+
+/* LIST */
+
+ul {
+    font: normal 400 15px 'Space Mono', monospace;
+    text-align: match-parent;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url("singlequote1.png");
+}
+
+/* FOOTER */
+
+footer {
+    align-content: center;
+    display: inline-flexbox;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #dedede;
+    background-color: rgba(0, 0, 0, 0.3);
+    font: normal 400 15px 'Space Mono', monospace;
+    color: #dfdfdf;
+    text-align: center;
+}
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+}
+a:link{
+    color: #dedede;
+}
+a:visited {
+    color: #dedede;
+}
+a:hover {
+    color: #c7c7c7;
+}
+
+/* ALIGN */
+
+.txtleft {
+    text-align: left;
+}
+
+.txtright {
+    text-align: right;
+}
+
+.txtjustify {
+    text-align: justify;
+}
+
+.txtcenter{
+    text-align: center; 
+    margin: 1em;
+}
+
+
+
